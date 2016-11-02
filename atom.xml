@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>RuiJan.Blog</title>
+  <subtitle>谋事不求易成，事易成则志存轻慢。</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://ruijanlee.github.io/"/>
+  <updated>2016-11-02T07:40:37.000Z</updated>
+  <id>http://ruijanlee.github.io/</id>
+  
+  <author>
+    <name>RuiJanLee</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>about</title>
+    <link href="http://ruijanlee.github.io/about/"/>
+    <id>http://ruijanlee.github.io/about/</id>
+    <published>1989-06-04T06:25:26.000Z</published>
+    <updated>2016-11-02T07:40:37.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>这里是RuiJanLee写写东西的地方。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这里是RuiJanLee写写东西的地方。&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
