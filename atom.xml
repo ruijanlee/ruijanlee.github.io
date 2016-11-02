@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ruijanlee.github.io/"/>
-  <updated>2016-11-02T07:40:37.000Z</updated>
+  <updated>2016-11-02T14:15:09.000Z</updated>
   <id>http://ruijanlee.github.io/</id>
   
   <author>
@@ -14,6 +14,59 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>解决MacOS修改icloud密码后的Keychains问题</title>
+    <link href="http://ruijanlee.github.io/%E8%A7%A3%E5%86%B3MacOS%E4%BF%AE%E6%94%B9icloud%E5%AF%86%E7%A0%81%E5%90%8E%E7%9A%84Keychains%E9%97%AE%E9%A2%98/"/>
+    <id>http://ruijanlee.github.io/解决MacOS修改icloud密码后的Keychains问题/</id>
+    <published>2016-11-02T14:07:01.000Z</published>
+    <updated>2016-11-02T14:15:09.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>如果你修改了icloud的密码之后，MacOS系统不会自动更新Local Items Keychain的密码，<br>于是每次当使用Local Items Keychain的时候（例如使用SSH KEY）系统会要求你输入旧的密码，  </p>
+<p>很长时间一段时间之内我都没有解决这个问题，我尝试了官方提供的方法，但是不管用。  </p>
+<p>直到我今天使用了下面的帖子的方法。<br><a href="https://techraptor.net/content/iron-mac-how-to-get-rid-of-annoying-local-items-keychain-box" target="_blank" rel="external">https://techraptor.net/content/iron-mac-how-to-get-rid-of-annoying-local-items-keychain-box</a>  </p>
+<p>其实解决方法超级简单。  </p>
+<p>进入~/Library/Keychains/  </p>
+<p>里面会有个类似 “A8F5E7B8-CEC1-4479-A7DF-F23CB076C8B8″的文件夹  </p>
+<p>将这个文件夹删除，重启，系统会重新生成新文件夹。  </p>
+<p>问题解决。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;如果你修改了icloud的密码之后，MacOS系统不会自动更新Local Items Keychain的密码，&lt;br&gt;于是每次当使用Local Items Keychain的时候（例如使用SSH KEY）系统会要求你输入旧的密码，  &lt;/p&gt;
+&lt;p&gt;很长时间一段时间之内我都
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>解决B75主板南桥PCH温度过高问题</title>
+    <link href="http://ruijanlee.github.io/%E8%A7%A3%E5%86%B3B75%E4%B8%BB%E6%9D%BF%E5%8D%97%E6%A1%A5PCH%E6%B8%A9%E5%BA%A6%E8%BF%87%E9%AB%98%E9%97%AE%E9%A2%98/"/>
+    <id>http://ruijanlee.github.io/解决B75主板南桥PCH温度过高问题/</id>
+    <published>2016-11-02T08:33:48.000Z</published>
+    <updated>2016-11-02T08:51:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>自从玩了守望先锋之后各种升级电脑主机的硬件，<br>键盘鼠标显卡都换成顶级产品就不说了。  </p>
+<p>因为换了144hz的显示器，以前一直觉得性能浪费的CPU马上就榨干了性能，<br>我的处理器是e3 1230v2，配的技嘉b75主板，买这个主板是因为便宜。<br>以前以为主板便宜的和贵的差不多，对性能没多大影响。<br>以前一直都不给CPU加风扇，只用机箱的风扇散热就够了。<br>直到我换了显示器玩守望先锋。</p>
+<p>144Hz显示器对于机器性能的要求成倍提升，当然游戏效果也是无与伦比。   </p>
+<p>大家都知道主板上的CPU有散热风扇，并且涂上导热的硅脂。<br>但是主板上的南桥芯片厂商是没有涂上硅脂的，一般南桥不会过热。<br>而且B75定位办公。高端主板的话都是有比较合理的大面积的散热片的。</p>
+<p>技嘉的B75南桥刚好在显卡下面，想自己改装散热片是没有位置的。<br>我解决的办法很简单。主板的南桥散热片是用卡扣固定的。<br>拆下来涂上自己买的酷冷至尊的顶级散热硅脂。</p>
+<p>在ADIA64里显示南桥温度从以前的80-90下降到50-60。<br>玩守望再也不会偶尔卡顿了，我又可以日常超神操作了。</p>
+<p>守望先锋是一个对电脑要求挺高的游戏。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;自从玩了守望先锋之后各种升级电脑主机的硬件，&lt;br&gt;键盘鼠标显卡都换成顶级产品就不说了。  &lt;/p&gt;
+&lt;p&gt;因为换了144hz的显示器，以前一直觉得性能浪费的CPU马上就榨干了性能，&lt;br&gt;我的处理器是e3 1230v2，配的技嘉b75主板，买这个主板是因为便宜。&lt;br&gt;以
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>about</title>
