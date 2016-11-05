@@ -335,7 +335,7 @@ function pwd14 (str) {
 	// p(str2digit(t2))
 
 	t2 = str2symbol(t2)
-	return 'p' + t1 + t2
+	return 'pP' + t1 + t2
 }
 
 
